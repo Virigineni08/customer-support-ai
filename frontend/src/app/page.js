@@ -19,7 +19,7 @@ export default function Home() {
     setLoading(true);
 
     try {
-      const response = await axios.post("http://127.0.0.1:8000/chat", {
+      const response = await axios.post("https://customer-support-ai-1ojq.onrender.com/chat", {
         message: input,
       });
 
